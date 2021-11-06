@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fonts/all.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap.css">
+    <link rel="stylesheet" href="./style/openshopStyle.css">
+    <link rel="stylesheet" href="./style/openshopMedia.css">
+    <link rel="icon" href="./images/Icon.jpg">
+    <title>Open Shop</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg  header_nav1">
+            <div class="container">
+                <button class="navbar-toggler ms-auto" type="" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav header_list ms-auto mb-2 mb-lg-0">
+                        <div class="dropdown navbar_language">
+                            <a class="btn btn-secondary dropdown-toggle m-2  " href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                English <span class="up_icon "></span>
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="openshop.html">Uzbek</a></li>
+                                <li><a class="dropdown-item" href="openshop.html">Russian</a></li>
+                            </ul>
+                        </div>
+
+                        <li class="nav-item m-lg-2">
+                            <a class="nav-link header_nav_link" href="tel:(907) 555-0101"><span
+                                    class="header_span m-lg-1"><i class="fal fa-phone-alt"></i></span>(907)
+                                555-0101</a>
+                        </li>
+                        <li class="nav-item m-lg-2">
+                            <a class="nav-link header_nav_link" href="#"><span class="header_span m-lg-1"><i
+                                        class="fal fa-user-alt"></i></span>Sign in</a>
+                        </li>
+                        <li class="nav-item m-lg-2">
+                            <a class="nav-link header_nav_link" href="#"><span class="header_span m-lg-1"><i
+                                        class="fal fa-shopping-cart"></i></span>Cart</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar ">
+            <div class="container header_logsech justify-content-start flex-sm-column  m-md-auto m-lg-auto  ms-xl-auto flex-xl-row  ">
+                <a href="openshop.html" class="navbar-brand logo m-auto m-sm-0"></a>
+                <form class="d-flex header_form m-auto m-sm-auto ms-xl-auto">
+                    <input class=" me-2 header_in" type="search" placeholder="What are you looking for?"
+                        aria-label="Search">
+                    <button class=" header_seach all-btn" type="submit"><i
+                            class="far fa-search header_in_seach"></i>SEARCH OUR STORE</button>
+                </form>
+            </div>
+        </nav>
+
+        <nav class="header_choose m-auto mt-2 d-flex   justify-content-around m-lg-auto">
+            <ul class="choose_product d-flex justify-content-between  flex-column flex-xl-row">
+                <li><a href="#!" class="product ">
+                        <p>
+                            <a class="product" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Cell Phones & Tablets
+                            </a>
+                        </p>
+                        <div class="collapse card_info" id="collapseExample">
+                            <div class="card card-body d-flex flex-row justify-content-between">
+                                <ul class="card_about">
+                                    <li>
+                                        <h4>Cell Phones</h4>
+                                    </li>
+                                    <li><a href="Cellphone.html" class="card_list">Xiaomi</a></li>
+                                    <li><a href="Cellphone.html" class="card_list">Apple</a></li>
+                                    <li><a href="Cellphone.html" class="card_list">Samsung</a></li>
+                                    <li><a href="Cellphone.html" class="card_list">Huawei</a></li>
+                                    <li><a href="Cellphone.html" class="card_list">BQ</a></li>
+                                    <li><a href="Cellphone.html" class="card_list">Nokia</a></li>
+                                    <li><a href="Cellphone.html" class="card_list">Inoi</a></li>
+                                    <li><a href="Cellphone.html" class="card_list">Vivo</a></li>
+                                </ul>
+
+                                <ul class="card_about2">
+                                    <li>
+                                        <h4>Tablets</h4>
+                                    </li>
+                                    <li><a href="Cellphone.html" class="card_list2">Xiaomi</a></li>
+                                    <li><a href="Cellphone.html" class="card_list2">Apple</a></li>
+                                    <li><a href="Cellphone.html" class="card_list2">Samsung</a></li>
+                                    <li><a href="Cellphone.html" class="card_list2">Huawei</a></li>
+                                    <li><a href="Cellphone.html" class="card_list2">BQ</a></li>
+                                    <li><a href="Cellphone.html" class="card_list2">More...</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </a></li>
+                <li><a href="#laptop" class="product ">Computers & Laptop</a></li>
+                <li><a href="#ph" class="product ">TV & Video</a></li>
+            </ul>
+            
+            <ul class="choose_product d-flex justify-content-between flex-column flex-xl-row">
+                <li><a href="#mix" class="product ">Asseccories</a></li>
+                <li><a href="#btn_mix" class="product ">Home appliance</a></li>
+                <li><a href="#playst" class="product ">Video Games & Consoles</a></li>
+            </ul>
+        </nav>
+
+        <div class="intro container">
+            <div id="carouselExampleIndicators" class="carousel slide  row align-items-center justify-content-center"
+                data-bs-ride="carousel">
+
+
+                <div class="col-lg-8 col-xl-6">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/tripleph_white.png" style="background: radial-gradient(31.86% 52.86% at 50% 50%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/tripleph_white.png" style="background: radial-gradient(31.86% 52.86% at 50% 50%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/triplewt_white.png" style="background: radial-gradient(31.86% 52.86% at 50% 50%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-xl-6 mt-3 mt-xl-0 d-flex flex-column align-items-center">
+
+                    <h1 class="intro_title">Color your days with small joy</h1>
+                    <a href="Cellphone.html" class="intro_btn all-btn ">SHOP NOW</a>
+
+                </div>
+
+                <div class="carousel-indicators intro_indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="header_dot active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        class="header_dot" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        class="header_dot" aria-label="Slide 3"></button>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <main>
+        <section class="work">
+            <div class="container">
+                <div class="row ">
+                    
+                    <div class="work_watch position-relative col-11 m-auto col-md-10  col-xl-6 col-lg-8">
+                        <div class="img"></div>
+                        <div class="work-watch-items">
+                            <h4 class="watch_h">Suunto SS050143000</h4>
+                            <p>70$</p>
+                        </div>
+                    </div>
+
+                    <div class="work_left m-auto col-xl-6 col-lg-8 col-md-10">
+                        <div class="work_airpods col-xl-12 col-lg-12 position-relative">
+                            <div class="img"></div>
+                            <div class="work-airpods-items">
+                                <h4 class="watch_two">Airpods 2.1</h4>
+                                <p id="mix">95$</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-12 col-lg-12   d-flex  work_top ">
+                            <div class="work_power col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6 position-relative">
+                                <div class="img"></div>
+                                <div class="work-power-items">
+                                    <h4 class="watch_three">Xiaomi Mi Power Bank 2s 10000</h4>
+                                    <p>9$</p>
+                                </div>
+                            </div>
+                            
+                            <div class="work_white col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6 position-relative">
+                                <div class="img"></div>
+                                <div class="work-white-items">
+                                    <h4 class="watch_four">Remax RP-W1 White</h4>
+                                    <p>11$</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="intro_btn_mix">
+                    <a href="phone_info.html" class="b1 all-learn all-btn">LEARN MORE</a>
+                </div>
+
+                <div class="row cellphone">
+                    <h1 id="ph">Cell Phone</h1>
+                    <div class="phone_item d-flex col-xl-12 flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-column">
+
+                        <div class="phone_divide d-flex flex-column flex-sm-row col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 "> 
+                            <div class="phone_box position-relative m-lg-auto m-md-auto m-sm-auto m-auto col-xl-6 col-lg-5 col-md-5 col-sm-6 col-9">
+                            <div class="phone_img "></div>
+
+                            <i class="fas fa-heart fast"></i>
+                            <h4 class="phone_title">IPhone 12 Pro Max 128GB (Gray)</h4>
+                            <span class="phone_text">1300$</span>
+                            <a href="phone_info.html" class="phone_btn all-btn">BUY</a>
+                            </div>
+
+                            <div class="phone_box1 position-relative m-lg-auto m-md-auto m-sm-auto m-auto col-xl-6 col-lg-5 col-md-5 col-sm-6 col-9">
+                            <div class="phone_img"></div>
+
+                            <i class="fas fa-heart fast"></i>
+                            <h4 class="phone_title">IPhone 11 Pro 128GB (Yellow)</h4>
+                            <span class="phone_text">700$</span>
+                            <a href="phone_info.html" class="phone_btn all-btn">BUY</a>
+                            </div>
+                        </div> 
+
+                        <div class="phone_divide d-flex flex-column flex-sm-row col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mt-3">
+                            <div class="phone_box2 position-relative m-lg-auto m-md-auto m-sm-auto m-auto col-xl-6 col-lg-5 col-md-5 col-sm-6 col-9">
+                            <div class="phone_img"></div>
+
+                            <i class="fas fa-heart fast"></i>
+                            <h4 class="phone_title">IPhone 12 Pro 256 GB (Blue)</h4>
+                            <span class="phone_text">1500$</span>
+                            <a href="phone_info.html" class="phone_btn all-btn">BUY</a>
+                            </div>
+
+                            <div class="phone_box3 position-relative m-lg-auto m-md-auto m-sm-auto m-auto col-xl-6 col-lg-5 col-md-5 col-sm-6 col-9">
+                            <div class="phone_img"></div>
+
+                            <i class="fas fa-heart fast"></i>
+                            <h4 class="phone_title">IPhone 11 Pro 256 GB (Red)</h4>
+                            <span class="phone_text">850$</span>
+                            <a href="phone_info.html" class="phone_btn all-btn">BUY</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="intro_btn_mix">
+                        <a href="phone_info.html" class="b1 all-learn all-btn">LEARN MORE</a>
+                    </div>
+                </div>
+
+                <div class="row Computers">
+                    <h1 id="laptop">Computers & Laptop</h1>
+                    <div class="laptop_item d-flex col-xl-12 flex-xxl-row flex-xl-column flex-lg-column flex-md-column flex-sm-column flex-column">
+
+                        <div class="laptop_divide d-flex flex-column flex-sm-column flex-md-row m-xl-auto m-xxl-auto col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 "> 
+                            <div class="laptop_box position-relative m-xl-auto m-lg-auto m-md-auto m-sm-auto m-auto col-xxl-6 col-xl-6 col-lg-5 col-md-5 col-sm-6 col-9">
+                            <div class="laptop_img "></div>
+
+                            <i class="fas fa-heart"></i>
+                            <h4 class="laptop_title">Lenovo IdeaPad L3 15IML05</h4>
+                            <span class="laptop_text">1350$</span>
+                            <a href="#!" class="laptop_btn all-btn">BUY</a>
+                            </div>
+
+                            <div class="laptop_box1 position-relative m-xl-auto m-lg-auto m-md-auto m-sm-auto m-auto col-xxl-6 col-xl-6 col-lg-5 col-md-5 col-sm-6 col-9">
+                            <div class="laptop_img"></div>
+
+                            <i class="fas fa-heart"></i>
+                            <h4 class="laptop_title">Dream Machines G1650Ti-15UA65</h4>
+                            <span class="laptop_text">1430$</span>
+                            <a href="#!" class="laptop_btn all-btn">BUY</a>
+                            </div>
+                        </div> 
+
+                        <div class="laptop_divide d-flex flex-column flex-sm-column flex-md-row m-xl-auto m-xxl-auto col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-3">
+                            <div class="laptop_box2 position-relative m-xl-auto m-lg-auto m-md-auto m-sm-auto m-auto col-xxl-6 col-xl-6 col-lg-5 col-md-5 col-sm-6 col-9">
+                            <div class="laptop_img"></div>
+
+                            <i class="fas fa-heart"></i>
+                            <h4 class="laptop_title">Apple MacBook Air 13" 2020</h4>
+                            <span class="laptop_text">1723$</span>
+                            <a href="#!" class="laptop_btn all-btn">BUY</a>
+                            </div>
+
+                            <div class="laptop_box3 position-relative m-xl-auto m-lg-auto m-md-auto m-sm-auto m-auto col-xxl-6 col-xl-6 col-lg-5 col-md-5 col-sm-6 col-9">
+                            <div class="laptop_img"></div>
+
+                            <i class="fas fa-heart"></i>
+                            <h4 class="laptop_title" style="left: 40px;">Dream Machines 15UA51</h4>
+                            <span class="laptop_text">1200$</span>
+                            <a href="#!" class="laptop_btn all-btn">BUY</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="intro_btn_mix">
+                        <a href="phone_info.html" class="b1 all-learn all-btn">LEARN MORE</a>
+                    </div>
+                </div>
+
+                <div class="row platstation">
+                    <div class="playstation_main d-flex flex-xxl-row flex-xl-row flex-column col-xxl-12 col-xl-12 col-lg-12">
+                        <div class="play_info col-xxl-6 col-xl-6 col-lg-12">
+                            <div class="play_logo "></div>
+                            <h1 id="playst" class="play_title">PlayStation 5 Console</h1>
+                            <a href="https://youtu.be/RkC0l4iekYo" class="intro_btn_play all-btn">WATCH NOW</a>
+                        </div>
+                        <div class="play_img  m-lg-auto col-xxl-6 col-xl-6 col-lg-12"></div>
+                    </div>
+                </div>
+
+                <div class="row seller">
+                    <h1 id="btn_mix">Top seller</h1>
+                    <div class="seller_item d-flex col-xl-12 flex-xxl-row flex-xl-column flex-lg-column flex-md-column flex-sm-column flex-column">
+
+                        <div class="seller_divide d-flex flex-column flex-sm-column flex-md-row m-xl-auto m-xxl-auto col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 "> 
+                            <div class="seller_box position-relative m-xl-auto m-lg-auto m-md-auto m-sm-auto m-auto col-xxl-6 col-xl-6 col-lg-5 col-md-5 col-sm-6 col-9">
+                            <div class="seller_img "></div>
+
+                            <i class="fas fa-heart"></i>
+                            <h4 class="seller_title">Smart Watch W34 | ZM (White)</h4>
+                            <span class="seller_text">29$</span>
+                            <a href="#!" class="seller_btn all-btn">BUY</a>
+                            </div>
+
+                            <div class="seller_box1 position-relative m-xl-auto m-lg-auto m-md-auto m-sm-auto m-auto col-xxl-6 col-xl-6 col-lg-5 col-md-5 col-sm-6 col-9">
+                            <div class="seller_img"></div>
+
+                            <i class="fas fa-heart"></i>
+                            <h4 class="seller_title">Dream Machines G1650Ti-15UA65</h4>
+                            <span class="seller_text">135$</span>
+                            <a href="#!" class="seller_btn all-btn">BUY</a>
+                            </div>
+                        </div> 
+
+                        <div class="seller_divide d-flex flex-column flex-sm-column flex-md-row m-xl-auto m-xxl-auto col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-3">
+                            <div class="seller_box2 position-relative m-xl-auto m-lg-auto m-md-auto m-sm-auto m-auto col-xxl-6 col-xl-6 col-lg-5 col-md-5 col-sm-6 col-9">
+                            <div class="seller_img"></div>
+
+                            <i class="fas fa-heart"></i>
+                            <h4 class="seller_title">Smart Watch W34 | ZM (Black)</h4>
+                            <span class="seller_text">29$</span>
+                            <a href="#!" class="seller_btn all-btn">BUY</a>
+                            </div>
+
+                            <div class="seller_box3 position-relative m-xl-auto m-lg-auto m-md-auto m-sm-auto m-auto col-xxl-6 col-xl-6 col-lg-5 col-md-5 col-sm-6 col-9">
+                            <div class="seller_img"></div>
+
+                            <i class="fas fa-heart"></i>
+                            <h4 class="seller_title">Coffee machine VITEK VT-1526</h4>
+                            <span class="seller_text">78$</span>
+                            <a href="#!" class="seller_btn all-btn">BUY</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="intro_btn_mix">
+                        <a href="phone_info.html" class="b1 all-learn all-btn">LEARN MORE</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row subscriber d-flex flex-column">
+                <div class="sing_part d-flex flex-column justify-content-center flex-sm-column flex-md-column flex-lg-row">
+                    <a href="openshop.html" class="sing_logo m-md-auto m-sm-auto m-auto"></a>
+                    <nav class="navbar sing_main">
+                        <div class="container-fluid d-flex flex-column change">
+                            <p class="sing_title">Subscribe to Newslatter</p>
+                          <form class="d-flex">
+                            <input class="sing_in " type="search" placeholder="" aria-label="Search">
+                            <button class="sing_seach" type="submit">SING UP</button>
+                          </form>
+                        </div>
+                    </nav>
+                    <ul class="sing_icon d-flex justify-content-center align-items-center">
+                        <li><a href="https://t.me/Shortime0"><i class="sing_arba fab fa-telegram-plane"></i></a></li>
+                        <li><a href="https://www.facebook.com/boburjon.jorayev.71"><i class="sing_arba fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/boburjon_02/"><i class="sing_arba fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sing_info">
+                    <ul class="sing_three d-flex justify-content-between m-auto">
+                        <li><a href="openshop.html" class="sing_three_link">News</a></li>
+                        <li><a href="#!" class="sing_three_link">Help</a></li>
+                        <li><a href="tel:+998935867101" class="sing_three_link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./lib/bootstrap.js"></script>
+</body>
+
+</html>

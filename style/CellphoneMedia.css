@@ -1,0 +1,759 @@
+@media (prefers-color-scheme: dark){
+    :root{
+        --body: #313131;
+        --text: #FFFFFF;
+        --dots: #EBEBEB;
+        --navfoot: #0C0C0C;
+        --cardlist: #0C0C0C;
+        --bar: #fff;
+        --btn:rgba(0, 0, 0, 0);
+        --logsh: url(../images/Logo2_black.png);
+    }
+
+
+
+
+
+
+
+
+
+    body{
+        background-color: var(--body);
+    }
+
+    .logo::after{
+        content: var(--logsh);
+    }
+
+    .bars{
+        color: var(--bar);
+        font-size: 35px;
+    }
+
+
+    .choose_product li a{
+        color: var(--bar);
+    }
+
+
+    .all-btn{
+        background: var(--btn);
+        color: var(--text);
+        border: 1px solid var(--bar);
+    }
+    
+    .card{
+        background-color: var(--cardlist) !important;
+        border-top: var(--bar) 3px solid;
+    }
+
+    .card_info.collapsed{
+        z-index: 1;
+        color: var(--bar);
+    }
+
+    .intro_title{
+        color: var(--bar);
+    }
+    
+    .header_in{
+        border: 1px solid var(--bar);
+        background-color: var(--btn);
+    }
+    
+    .header_seach{
+        border: 1px solid var(--bar);
+        
+    }
+    
+    .carousel-item img{
+        filter: drop-shadow(-10px 5px 3px rgba(0, 0, 0, 0.25));
+    }
+
+    .header_dot.active {
+        background-color: var(--bar) !important;
+    }
+
+    .card_list,
+    .card_list2{
+        color: var(--bar);
+    }
+
+    .card_about h4,
+    .card_about2 h4{
+        color: var(--bar);
+    }
+    .sing_seach{
+        background-color: var(--body);
+    }
+
+    .xbox_item{
+        background-image: url(../images/xbox_img_black.png);
+    }    
+
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1400px){
+    .phone_title{
+        left: 15px;
+    }
+
+    .phone_text{
+        left: 110px;
+    }
+
+    .phone_btn{
+        left: 80px;
+    }
+
+    .samsung_title{
+        left: 20px;
+    }
+
+    .samsung_text{
+        left: 120px;
+    }
+    
+    .samsung_btn{
+        left: 90px;
+    } 
+    
+    
+}
+
+@media(min-width:1200px){
+    .intro{
+        margin-top: 24px;
+    }
+
+    .sing_main{
+        margin: 0 120px 0 10px;
+    }
+
+    .sing_icon{
+        margin-top: 30px;
+    }
+
+    
+}
+
+@media(max-width:1200px){
+    .intro{
+        margin-top: 190px;
+    }
+    
+    .xiaomi_title{
+        left: 70px;
+    }
+
+    .xiaomi_text{
+        left: 170px;
+    }
+    
+    .xiaomi_btn{
+        left: 130px;
+    } 
+
+    .samsung_title{
+        left: 70px;
+    }
+
+    .samsung_text{
+        left: 170px;
+    }
+    
+    .samsung_btn{
+        left: 130px;
+    } 
+
+    .phone_title{
+        left: 60px;
+    }
+
+    .phone_text{
+        left: 160px;
+    }
+
+    .phone_btn{
+        left: 130px;
+    }
+    
+    .xbox_item{
+        background-size: contain;
+        max-width: 1400px;
+    }
+    
+    .xbox_line{
+        max-width: 1900px;
+        width: 100%;
+        height: 210px;
+        margin-top: -210px;
+    }
+    
+}
+
+
+@media(max-width:992px){
+    .subscriber{
+        height: 340px;
+    }   
+
+    .sing_icon{
+        margin-top: 30px;
+    }
+
+    .xiaomi_title{
+        left: 30px;
+    }
+
+    .xiaomi_text{
+        left: 120px;
+    }
+    
+    .xiaomi_btn{
+        left: 90px;
+    } 
+
+    .samsung_title{
+        left: 15px;
+    }
+
+    .samsung_text{
+        left: 120px;
+    }
+    
+    .samsung_btn{
+        left: 90px;
+    } 
+
+    .phone_title{
+        left: 20px;
+    }
+
+    .phone_text{
+        left: 110px;
+    }
+
+    .phone_btn{
+        left: 80px;
+    }
+    
+    .xbox_item{
+        background-size: contain;
+        max-width: 1000px;
+    }
+    
+    .xbox_line{
+        height: 110px;
+        margin-top: -220px;
+    }
+    
+    .xbox_a{
+        left: 0px;
+        bottom: 110px;
+    }
+    
+    .xbox_title{
+        font-size: 44px;
+        line-height: 55px;
+    }
+    
+    .xbox_text{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+}
+
+@media(max-width:768px){
+    .header_in{
+        width: 500px;
+
+    }
+    
+    .intro_btn_play{
+        width: 150px;
+        height: 40px;
+        padding: 8px 22px;
+    }
+    
+    .intro_btn_play a{
+        font-family: var(--n400);
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .change{
+        margin-left: -30px;
+    }   
+    
+    .xiaomi_title{
+        left: 5px;
+    }
+
+    .xiaomi_text{
+        left: 100px;
+    }
+    
+    .xiaomi_btn{
+        left: 70px;
+    } 
+
+    .samsung_title{
+        left: 0;
+    }
+
+    .samsung_text{
+        left: 100px;
+    }
+    
+    .samsung_btn{
+        left: 70px;
+    } 
+
+    .phone_title{
+        left: 10px;
+    }
+
+    .phone_text{
+        left: 100px;
+    }
+
+    .phone_btn{
+        left: 70px;
+    }
+    
+    .xbox_item{
+        background-size: contain;
+        max-width: 800px;
+    }
+    
+    .xbox_line{
+        height: 110px;
+        margin-top: -228px;
+    }
+    
+    .xbox_a{
+        left: 0px;
+        bottom: 120px;
+        padding: 10px 25px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .xbox_title{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    
+    .xbox_text{
+        font-size: 20px;
+        line-height: 28px;
+    }
+ 
+} 
+
+@media(max-width:650px){
+    .header_in{
+        width: 500px;
+
+    }
+    
+}
+
+
+
+@media(max-width:576px){
+    .header_in{
+        width: 400px;
+
+    }
+
+    .intro_title{
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 80px;
+    }    
+
+    .choose_product li a{
+        font-size: 14px;
+        line-height: 30px;
+    }    
+
+    .card{
+        margin-left: -20px;
+    }
+    
+    .intro_btn_play a{
+        font-family: var(--n400);
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .sing_in{
+        width: 300px;
+        height: 50px;
+    }    
+
+    .sing_seach{
+        width: 160px;
+        height: 50px;
+    }    
+
+    .change{
+        margin-left: 0;
+    } 
+
+    .xiaomi_title{
+        left: 80px;
+    }
+
+    .xiaomi_text{
+        left: 170px;
+    }
+    
+    .xiaomi_btn{
+        left: 140px;
+    } 
+
+    .samsung_title{
+        left: 60px;
+    }
+
+    .samsung_text{
+        left: 160px;
+    }
+    
+    .samsung_btn{
+        left: 130px;
+    } 
+
+    .phone_title{
+        left: 70px;
+    }
+
+    .phone_text{
+        left: 170px;
+    }
+
+    .phone_btn{
+        left: 140px;
+    }
+}
+
+@media(max-width:545px){
+    
+
+    .sing_in{
+        width: 250px;
+        height: 50px;
+    }    
+
+    .sing_seach{
+        width: 110px;
+        height: 50px;
+    }
+    
+    .xbox_item{
+        background-size: contain;
+        max-width: 800px;
+    }
+    
+    .xbox_line{
+        height: 110px;
+        margin-top: -228px;
+    }
+    
+    .xbox_a{
+        left: 0px;
+        bottom: 120px;
+        padding: 5px 20px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .xbox_title{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    
+    .xbox_text{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .xbox_number{
+        margin: 35px auto;
+    }    
+}
+
+@media(max-width:500px){
+    .header_choose{
+        flex-direction: column;
+    }
+
+    .choose_product li .product{
+        line-height: 30px;
+    }
+    
+    .choose_product:nth-child(1){
+        margin-top: 100px;
+    }
+
+    .choose_product:nth-child(2){
+        margin-top: 60px;
+    }
+
+    .xiaomi_title{
+        left: 50px;
+    }
+
+    .xiaomi_text{
+        left: 140px;
+    }
+    
+    .xiaomi_btn{
+        left: 100px;
+    }
+    
+    .samsung_title{
+        left: 40px;
+    }
+
+    .samsung_text{
+        left: 130px;
+    }
+    
+    .samsung_btn{
+        left: 100px;
+    } 
+
+    .phone_title{
+        left: 30px;
+    }
+
+    .phone_text{
+        left: 130px;
+    }
+
+    .phone_btn{
+        left: 100px;
+    }
+}
+
+@media(max-width:460px){
+    .phone_title{
+        left: 10px;
+    }
+
+    .phone_text{
+        left: 100px;
+    }
+
+    .phone_btn{
+        left: 70px;
+    }
+
+    .fast{
+        top: 5px;
+    }
+}
+
+@media(max-width:450px){
+    .header_in{
+        width: 320px;
+
+    }
+
+    .header_seach{
+        font-size: 14px;
+        width: 120px;
+        margin-left: -128px;
+    }
+
+    .xiaomi_title{
+        left: 30px;
+    }
+
+    .xiaomi_text{
+        left: 110px;
+    }
+    
+    .xiaomi_btn{
+        left: 80px;
+    } 
+
+    .samsung_title{
+        left: 15px;
+    }
+
+    .samsung_text{
+        left: 90px;
+    }
+    
+    .samsung_btn{
+        left: 60px;
+    } 
+    
+    .xbox_line{
+        height: 110px;
+        margin-top: -233px;
+    }
+    
+    .xbox_a{
+        left: 0px;
+        bottom: 130px;
+        padding: 5px 15px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .xbox_title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .xbox_text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .xbox_number{
+        margin: 35px auto;
+    }    
+
+}
+
+@media(max-width:445px){
+    .change{
+        margin-left: -20px;
+    } 
+
+    .sing_in{
+        width: 180px;
+        height: 40px;
+    }    
+
+    .sing_seach{
+        width: 80px;
+        height: 40px;
+    }
+}
+
+@media(max-width:410px){
+    .intro_title{
+        font-size: 30px;
+        line-height: 50px;
+    } 
+    
+    .intro{
+        margin-top: 170px;
+    }
+
+    .xiaomi_title{
+        left: 10px;
+    }
+
+    .xiaomi_text{
+        left: 90px;
+    }
+    
+    .xiaomi_btn{
+        left: 50px;
+    } 
+
+}
+
+@media(max-width:380px){
+    .phone_title{
+        left: 0;
+    }
+
+    .phone_text{
+        left: 80px;
+    }
+
+    .phone_btn{
+        left: 50px;
+    }
+
+    .sing_three{
+        width: 250px;
+    }
+    
+    .xbox_line{
+        height: 100px;
+        margin-top: -235px;
+    }
+    
+    .xbox_a{
+        left: 0px;
+        bottom: 140px;
+        padding: 5px 10px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    .xbox_title{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    .xbox_text{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .xbox_number{
+        margin: 30px auto;
+    }  
+}
+
+@media(max-width:350px){
+    .header_in{
+        width: 290px;
+
+    }
+    
+    .header_form{
+        flex-direction: column-reverse;
+    }
+
+    .header_seach{
+        font-size: 16px;
+        width: 290px;
+        margin: 0;
+    }
+
+    .card{
+        margin-right: 10px;
+    }
+
+    .xbox_line{
+        height: 100px;
+        margin-top: -240px;
+    }
+
+}
+
+
+
+
+
+
+

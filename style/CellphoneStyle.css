@@ -1,0 +1,892 @@
+@import './fonts.css';
+
+:root {
+    --n400: 'NotoSans-Regular';
+    --n300: 'NotoSansMono-Light';
+    --n500: 'NotoSansMono-Medium';
+    --m600: 'NotoSansMono-SemiBold';
+    --violet: #7177F1;
+    --text: #FFFFFF;
+    --body: #FFFFFF;
+    --dots: #ABABAB;
+    --navfoot: #313131;
+    --bar: #303030;
+    --btn: #313131;
+    --cardlist: #FFFF;
+    --logsh: url(../images/Logo1_white.png);
+    --logbot: url(../images/Logo2_black.png) ;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+body{
+    background: var(--body);
+}
+
+.header_nav1{
+    background: var(--navfoot);
+}
+
+.header_bar{
+    color: white;
+}
+
+.header .fa-bars{
+    color: white;
+    font-size: 30px;
+}
+
+.header_list a{
+    font-family: var(--n400);
+    font-size: 14px;
+}
+
+.header .header_list .header_nav_link{
+    color: white;
+}
+
+.header .header_span{
+    margin-right: 10px;
+}
+
+.logo::after{
+    content: var(--logsh);
+}
+
+.bars{
+    color: var(--bar);
+    font-size: 35px;
+}
+
+.header_in{
+    width: 630px;
+    height: 50px;
+    border: 1px solid var(--bar);
+    padding-left: 10px;
+}
+
+.all-btn{
+    background-color: var(--btn);
+    color: var(--text);
+    border: 1px solid var(--bar);
+    transition: 0.5s;
+}
+
+.all-learn{
+    padding: 15px 30px;
+    margin: 30px auto;
+}
+
+.intro_btn_mix{
+    margin: 30px auto;
+    height: 50px;
+    width: 190px;
+}
+
+.intro_btn_mix .b1:hover{
+    color: greenyellow;
+    background-color: burlywood;
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+}
+
+.header_seach{
+    border: 1px solid var(--bar);
+    background-color: var(--navfoot);
+    width: 200px;
+    height: 50px;
+    margin-left: -208px;
+    line-height: 19px;
+    font-family: var(--n400);
+}
+
+.header_in_seach{
+    margin-right: 10px;
+}
+
+.header_choose{
+    max-width: 1180px;
+    width: 100%;
+    height: 30px;
+}
+
+.choose_product{
+    width: 100%;
+    height: 30px;
+}
+
+.choose_product li{
+    margin: auto;
+}
+
+.choose_product li .product{
+    color: var(--bar);
+    font-size: 18px;
+    line-height: 70px;
+    font-family: var(--n400);
+}
+
+.choose_product li .product:hover{
+    text-decoration: underline;
+}
+
+.card_list,
+.card_list2
+{
+    color: var(--bar);
+    font-family: var(--n300);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.card_about{
+    margin-left: -35px;
+}
+
+.card_about2{
+    margin-left: 25px;
+}
+
+.card_about h4,
+.card_about2 h4{
+    margin-bottom: 10px;
+    color: var(--bar);
+    font-family: var(--n300);
+    font-size: 16px;
+}
+
+.card{
+    background-color: var(--cardlist) !important;
+    margin-left: -50px;
+    border-top: var(--bar) 3px solid;
+}
+
+
+.card_info.collapsed{
+    z-index: 1;
+    color: var(--bar);
+}
+
+.intro_indicators {
+    margin: 0;
+    margin-top: 50px;
+    position: static;
+    column-gap: 15px;
+    margin-bottom: 88px;
+}
+
+.carousel-inner{
+    z-index: -1;
+}
+
+.header_dot.active {
+    background-color: var(--bar) !important;
+    transform: scale(1.2);
+}
+
+.header_dot{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    background-color: var(--dots) !important;
+}
+
+.intro_title{
+    color: var(--bar);
+    font-family: var(--m600);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.intro_btn{
+    transition: 0.5ms;
+    padding: 12px 46px;
+    transition: 0.5s;
+}
+
+.intro_btn:hover{
+    color: greenyellow;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cellphone{
+    margin: 40px 0 30px 0;
+}
+
+.cellphone h1{
+    margin-bottom: 30px;
+    color: var(--bar);
+    font-family: var(--n400);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.phone_item{
+    margin-bottom: 30px;
+}
+
+.phone_img{
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.phone_box{
+    padding: 0 15px 0 0;
+    height: 360px;
+    background-image: radial-gradient(50% 10% at 50% 65%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%) , url(../images/Iphone_1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-gap: 5px;
+
+}
+
+.phone_box1{
+    padding: 0 15px 0 0;
+    height: 360px;
+    background-image: radial-gradient(50% 10% at 50% 65%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%) , url(../images/iphone_2change.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-gap: 5px;
+
+}
+
+.phone_box2{
+    padding: 0 15px 0 0;
+    height: 360px;
+    background-image: radial-gradient(50% 10% at 50% 65%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%) , url(../images/iphone_3change.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-gap: 5px;
+
+}
+
+.phone_box3{
+    padding: 0 15px 0 0;
+    height: 360px;
+    background-image: radial-gradient(50% 10% at 50% 65%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%) , url(../images/iphone_4change.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-gap: 5px;
+
+}
+
+.phone_box:hover,
+.phone_box1:hover,
+.phone_box2:hover,
+.phone_box3:hover{
+    box-shadow: 0px 0px 2px 0px #0e0606;
+
+}
+
+.phone_title{
+    color: var(--bar);
+    position: absolute;
+    bottom: 75px;
+    left: 40px;
+    font-family: var(--n500);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.phone_text{
+    color: var(--bar);
+    position: absolute;
+    bottom: 45px;
+    left: 130px;
+}
+
+.fast{
+    color: var(--bar);
+    position: absolute;
+    top: 17px;
+    right: 16px;
+    display: none;
+}
+
+.phone_box:hover  .fast,
+.phone_box1:hover .fast,
+.phone_box2:hover .fast,
+.phone_box3:hover .fast{
+    display: block;
+}
+
+.fast:hover{
+    color: red;
+}
+
+.phone_btn{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    left: 100px;
+    display: none;
+    color: var(--text);
+}
+
+.phone_box:hover .phone_btn{
+    display: block;
+}
+
+.phone_box:hover .phone_btn,
+.phone_box1:hover .phone_btn,
+.phone_box2:hover .phone_btn,
+.phone_box3:hover .phone_btn{
+    display: block;
+}
+
+.phone_btn:hover{
+    color: red;
+    background-image: linear-gradient(lightblue,pink,lightyellow);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.samsung{
+    margin: 40px 0 30px 0;
+}
+
+.samsung h1{
+    margin-bottom: 30px;
+    color: var(--bar);
+    font-family: var(--n400);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.samsung_item{
+    margin-bottom: 30px;
+}
+
+.samsung_img{
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.samsung_box{
+    padding: 0 15px 0 0;
+    height: 360px;
+    background-image: radial-gradient(50% 10% at 50% 65%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%) , url(../images/samsung_black_a51.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-gap: 5px;
+
+}
+
+.samsung_box1{
+    padding: 0 15px 0 0;
+    height: 360px;
+    background-image: radial-gradient(50% 10% at 50% 65%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%) , url(../images/samsung_black_s21.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-gap: 5px;
+
+}
+
+.samsung_box2{
+    padding: 0 15px 0 0;
+    height: 360px;
+    background-image: radial-gradient(50% 10% at 50% 65%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%) , url(../images/samsung_black_s10.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-gap: 5px;
+
+}
+
+.samsung_box3{
+    padding: 0 15px 0 0;
+    height: 360px;
+    background-image: radial-gradient(50% 10% at 50% 65%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%) , url(../images/samsung_black_a41.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-gap: 5px;
+
+}
+
+.samsung_box:hover,
+.samsung_box1:hover,
+.samsung_box2:hover,
+.samsung_box3:hover{
+    box-shadow: 0px 0px 2px 0px #0e0606;
+
+}
+
+.samsung_title{
+    color: var(--bar);
+    position: absolute;
+    bottom: 75px;
+    left: 40px;
+    font-family: var(--n500);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.samsung_text{
+    color: var(--bar);
+    position: absolute;
+    bottom: 45px;
+    left: 140px;
+}
+
+.fast{
+    color: var(--bar);
+    position: absolute;
+    top: 17px;
+    right: 16px;
+    display: none;
+}
+
+.samsung_box:hover  .fast,
+.samsung_box1:hover .fast,
+.samsung_box2:hover .fast,
+.samsung_box3:hover .fast{
+    display: block;
+}
+
+.fast:hover{
+    color: red;
+}
+
+.samsung_btn{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    left: 110px;
+    display: none;
+    color: var(--text);
+}
+
+.samsung_box:hover .samsung_btn{
+    display: block;
+}
+
+.samsung_box:hover  .samsung_btn,
+.samsung_box1:hover .samsung_btn,
+.samsung_box2:hover .samsung_btn,
+.samsung_box3:hover .samsung_btn{
+    display: block;
+}
+
+.samsung_btn:hover{
+    color: red;
+    background-image: linear-gradient(lightblue,pink,lightyellow);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xiaomi{
+    margin: 40px 0 30px 0;
+}
+
+.xiaomi h1{
+    margin-bottom: 30px;
+    color: var(--bar);
+    font-family: var(--n400);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.xiaomi_item{
+    margin-bottom: 30px;
+}
+
+.xiaomi_img{
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.xiaomi_box{
+    padding: 0 15px 0 0;
+    height: 360px;
+    background-image: radial-gradient(50% 10% at 50% 65%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%) , url(../images/xiomi_black_10t.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-gap: 5px;
+
+}
+
+.xiaomi_box1{
+    padding: 0 15px 0 0;
+    height: 360px;
+    background-image: radial-gradient(50% 10% at 50% 65%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%) , url(../images/xiomi_black_10tpro.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-gap: 5px;
+
+}
+
+.xiaomi_box2{
+    padding: 0 15px 0 0;
+    height: 360px;
+    background-image: radial-gradient(50% 10% at 50% 65%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%) , url(../images/xiomi_black_10lite.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-gap: 5px;
+
+}
+
+.xiaomi_box3{
+    padding: 0 15px 0 0;
+    height: 360px;
+    background-image: radial-gradient(50% 10% at 50% 65%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%) , url(../images/xiomi_black_10liteblue.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-gap: 5px;
+
+}
+
+.xiaomi_box:hover,
+.xiaomi_box1:hover,
+.xiaomi_box2:hover,
+.xiaomi_box3:hover{
+    box-shadow: 0px 0px 2px 0px #0e0606;
+
+}
+
+.xiaomi_title{
+    color: var(--bar);
+    position: absolute;
+    bottom: 75px;
+    left: 30px;
+    font-family: var(--n500);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.xiaomi_text{
+    color: var(--bar);
+    position: absolute;
+    bottom: 45px;
+    left: 130px;
+}
+
+.fast{
+    color: var(--bar);
+    position: absolute;
+    top: 17px;
+    right: 16px;
+    display: none;
+}
+
+.xiaomi_box:hover  .fast,
+.xiaomi_box1:hover .fast,
+.xiaomi_box2:hover .fast,
+.xiaomi_box3:hover .fast{
+    display: block;
+}
+
+.fast:hover{
+    color: red;
+}
+
+.xiaomi_btn{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    left: 100px;
+    display: none;
+    color: var(--text);
+}
+
+.xiaomi_box:hover .xiaomi_btn{
+    display: block;
+}
+
+.xiaomi_box:hover  .xiaomi_btn,
+.xiaomi_box1:hover .xiaomi_btn,
+.xiaomi_box2:hover .xiaomi_btn,
+.xiaomi_box3:hover .xiaomi_btn{
+    display: block;
+}
+
+.xiaomi_btn:hover{
+    color: red;
+    background-image: linear-gradient(lightblue,pink,lightyellow);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xbox_item{
+    background-image: url(../images/xbox_img_white.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    max-width: 1900px;
+    width: 100%;
+    position: relative;    
+}
+
+.xbox_title{
+    font-family: var(--m600);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: var(--bar);
+}
+
+.xbox_text{
+    max-width: 450px;
+    width: 100%;
+    font-family: var(--n400);
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--bar);
+}
+
+.xbox_a{
+    padding: 12px 37px;
+    font-family: var(--n400);
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--text);
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background: #313131;
+    color: var(--text);
+    border: 1px solid #313131;
+}
+
+.xbox_a:hover{
+    color: var(--text);
+}
+
+.xbox_line{
+    background: #E3E3E3;
+    max-width: 1900px;
+    width: 100%;
+    height: 195px;
+    margin-top: -195px;
+}
+
+.xbox_number{
+    margin: 45px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group_part{
+    border-right: 2px solid var(--btn);
+    padding: 0 10px;
+    color: #ABABAB;
+}
+
+.group_part:hover{
+    color: var(--bar);
+}
+
+.group_part:last-child{
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: var(--navfoot);
+}
+
+.subscriber{
+    height: 240px;
+}
+
+.sing_logo::after{
+    content: var(--logbot);
+}
+
+.sing_part{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sing_title{
+    font-family: var(--n400);
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--text);
+}
+
+.sing_in{
+    width: 330px;
+    height: 50px;
+    border: 1px solid var(--text);
+    padding-left: 10px;
+}
+
+.sing_seach{
+    width: 190px;
+    height: 50px;
+    border: 1px solid var(--text);
+    background-color: #303030;
+    line-height: 19px;
+    font-family: var(--n400);
+    color: var(--text);
+}
+
+.sing_arba{
+    font-size: 40px;
+    color: var(--text);
+}
+
+.fa-telegram-plane{
+    margin-left: -20px;
+}
+
+.fa-telegram-plane:hover{
+    color: #0088cc;
+    
+}
+
+.fa-facebook{
+    margin: 0 20px;
+}
+
+.fa-facebook:hover{
+    color: #3b5998;
+    
+}
+
+.fa-instagram:hover{
+    color: #FD1D1D;
+}
+
+.sing_three{
+    width: 300px;
+}
+
+.sing_three_link{
+    font-family: var(--n400);
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--text);
+}

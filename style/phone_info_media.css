@@ -1,0 +1,534 @@
+@media (prefers-color-scheme: dark){
+    :root{
+        --body: #313131;
+        --text: #FFFFFF;
+        --dots: #EBEBEB;
+        --navfoot: #0C0C0C;
+        --cardlist: #0C0C0C;
+        --bar: #fff;
+        --btn:rgba(0, 0, 0, 0);
+        --logsh: url(../images/Logo2_black.png);
+    }
+
+
+
+
+
+
+
+
+
+    body{
+        background-color: var(--body);
+    }
+
+    .logo::after{
+        content: var(--logsh);
+    }
+
+    .bars{
+        color: var(--bar);
+        font-size: 35px;
+    }
+
+
+    .choose_product li a{
+        color: var(--bar);
+    }
+
+
+    .all-btn{
+        background: var(--btn);
+        color: var(--text);
+        border: 1px solid var(--bar);
+    }
+    
+    .card{
+        background-color: var(--cardlist) !important;
+        border-top: var(--bar) 3px solid;
+    }
+
+    .card_info.collapsed{
+        z-index: 1;
+        color: var(--bar);
+    }
+
+    .header_in{
+        border: 1px solid var(--bar);
+        background-color: var(--btn);
+    }
+    
+    .header_seach{
+        border: 1px solid var(--bar);
+        
+    }
+
+    .card_list,
+    .card_list2{
+        color: var(--bar);
+    }
+
+    .card_about h4,
+    .card_about2 h4{
+        color: var(--bar);
+    }
+    .sing_seach{
+        background-color: var(--body);
+    }
+    
+    .change_img img{
+        background: radial-gradient(50% 65% at 50% 50%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%) , url(../images/Iphone_3page.png);
+    }
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1400px){
+    .phone_desc{
+        margin: auto;
+    }
+
+    .phone_desc_two{
+        margin: auto;
+    }
+    
+}
+
+@media(min-width:1200px){
+    .sing_main{
+        margin: 0 120px 0 10px;
+    }
+
+    .sing_icon{
+        margin-top: 30px;
+    }
+
+    
+    
+}
+
+@media(max-width:1200px){
+    .work{
+        margin-top: 180px;
+    }
+
+    .phone_desc{
+        margin: auto;
+    }
+
+    .phone_desc_two{
+        margin: auto;
+    }
+
+    .play_title{
+        text-align: center;
+    }
+
+    .play_p{
+        text-align: center;
+        margin: 30px 0 80px 0;
+    }
+}
+
+
+@media(max-width:992px){
+    .subscriber{
+        height: 340px;
+    }   
+
+    .sing_icon{
+        margin-top: 30px;
+    }
+
+    .change_img img {
+        margin-left: 0px;
+        object-fit: cover;
+    }
+
+    .phone_desc{
+        margin: auto;
+    }
+
+    .phone_desc_two{
+        margin: auto;
+    }
+
+}
+
+@media(max-width:768px){
+    .header_in{
+        width: 500px;
+
+    }
+
+    .change{
+        margin-left: -30px;
+    }
+    
+    .phone_desc{
+        margin-left: -80px;
+    }
+
+    .phone_desc_two{
+        margin-left: -60px;
+    }
+    
+    .phone_info_btn{
+        width: 410px;
+    }
+
+    .play_img img{
+        width: 550px;
+    }
+ 
+} 
+
+@media(max-width:650px){
+    .header_in{
+        width: 500px;
+
+    }
+    
+}
+
+@media(max-width:650px){
+    .play_img img{
+        width: 450px;
+    }
+
+    .play_title{
+        font-size: 44px;
+        line-height: 60px;
+    }
+
+    .play_p{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+}
+
+
+@media(max-width:576px){
+    .header_in{
+        width: 400px;
+
+    }
+
+    .choose_product li a{
+        font-size: 14px;
+        line-height: 30px;
+    }    
+
+    .card{
+        margin-left: -20px;
+    }
+
+    .sing_in{
+        width: 300px;
+        height: 50px;
+    }    
+
+    .sing_seach{
+        width: 160px;
+        height: 50px;
+    }    
+
+    .change{
+        margin-left: 0;
+    } 
+
+    .list_main{
+        flex-direction: row;
+        margin: 10px 30px;
+    }
+
+    .sm_change{
+        flex-direction: column;
+    }
+
+    .phone_desc_two{
+        margin-left: -80px;
+    }
+    .sm_change_info{
+        margin: 10px auto;
+        width: 100%;
+    }
+
+   
+}
+
+@media(max-width:545px){
+    .sing_in{
+        width: 250px;
+        height: 50px;
+    }    
+
+    .sing_seach{
+        width: 110px;
+        height: 50px;
+    }
+}
+
+@media(max-width:500px){
+    .header_choose{
+        flex-direction: column;
+    }
+
+    .choose_product li .product{
+        line-height: 30px;
+    }
+    
+    .choose_product:nth-child(1){
+        margin-top: 100px;
+    }
+
+    .choose_product:nth-child(2){
+        margin-top: 60px;
+    }
+
+    .phone_info_title{
+        font-size: 26px;
+        line-height: 60px;
+    }
+
+    .phone_info_span{
+        font-size: 22px;
+        line-height: 60px;
+    }
+    
+    .second_title{
+        font-size: 22px;
+        line-height: 60px;
+    }
+    
+}
+
+@media(max-width:460px){
+    .change_img img {
+        margin-left: 0;
+        width: 350px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .list_main{
+        flex-direction: row;
+        margin: 10px 10px;
+    }
+
+    .play_img img{
+        width: 300px;
+    }
+
+    .play_title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .play_p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+}
+
+@media(max-width:450px){
+    .header_in{
+        width: 320px;
+
+    }
+
+    .header_seach{
+        font-size: 14px;
+        width: 120px;
+        margin-left: -128px;
+    }
+
+    .phone_info_title{
+        font-size: 24px;
+        line-height: 50px;
+    }
+
+    .phone_info_span{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    
+    .second_title{
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+}
+
+@media(max-width:445px){
+    .change{
+        margin-left: -20px;
+    } 
+
+    .sing_in{
+        width: 180px;
+        height: 40px;
+    }    
+
+    .sing_seach{
+        width: 80px;
+        height: 40px;
+    }
+
+    .phone_info_btn{
+        flex-wrap: wrap;
+    }
+
+    .play_link_cart{
+        margin: 10px;
+    }
+
+    .play_link_buy{
+        margin: 10px;
+    }    
+
+    .phone_desc{
+        margin-left: -110px;
+    }
+
+    .phone_desc_two{
+        margin-left: -110px;
+    }
+
+    .phone_info_btn{
+        width: 350px;
+    }
+}
+
+@media(max-width:380px){
+    .sing_three{
+        width: 250px;
+    }
+
+    .phone_desc{
+        margin-left: -95px;
+    }
+
+    .phone_desc_two{
+        margin-left: -110px;
+    }
+
+    .phone_info_btn{
+        width: 280px;
+    }
+
+    .list_change{
+        width: 95px;
+        height: 90px;
+    }
+
+    .list_change-1{
+        width: 95px;
+        height: 90px;
+    }
+
+    .list_change-2{
+        width: 95px;
+        height: 90px;
+    }
+
+    .phone_info_title{
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .phone_info_span{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    
+    .second_title{
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+
+}
+
+@media(max-width:350px){
+    .header_in{
+        width: 290px;
+
+    }
+    
+    .header_form{
+        flex-direction: column-reverse;
+    }
+
+    .header_seach{
+        font-size: 16px;
+        width: 290px;
+        margin: 0;
+    }
+
+    .card{
+        margin-right: 10px;
+    }
+
+    .change_img img {
+        margin-left: 0;
+        width: 300px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .phone_desc_two {
+        margin-left: -90px;
+    }
+
+    .phone_info_title{
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .phone_info_span{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    
+    .second_title{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .play_link{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .play_title{
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .play_p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+}
+
+
+
+
